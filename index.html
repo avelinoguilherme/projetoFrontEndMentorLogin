@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <section class="container">
+      <div class="main">
+        <div class="main-text">
+          <h1>Learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <form action="/" method="post" name="formulario" id="formulario">
+          <div class="main-form">
+            <div class="form-btn--blue">
+              <p>
+                <span>Try it free 7 days</span>
+                then<br> $20/mo. thereafter
+              </p>
+            </div>
+
+
+            <div class="inputs" id="inputs">
+          
+              <div class="form-control">
+                <input class="form-input" id="first-name" type="text" required autocomplete="off" name="name" placeholder=" " />
+                <label class="form-label">
+                  First Name <span class="req">*</span>
+                </label>
+                <small id="textName"></small>
+              </div>
+          
+              <div class="form-control">
+                <input class="form-input" id="last-name" type="text" required autocomplete="off" name="last-name" placeholder=" " />
+                <label class="form-label">
+                  Last Name <span class="req">*</span>
+                </label>
+                <small id="textLastName"></small>
+              </div>
+          
+          
+              <div class="form-control">
+                <input class="form-input" id="email" type="email" required autocomplete="off" name="email" placeholder=" " />
+                <label class="form-label">
+                  Email Adress <span class="req">*</span>
+                </label>
+                <small id="textEmail"></small>
+              </div>
+          
+          
+              <div class="form-control">
+                <input class="form-input" id="password" type="password" required autocomplete="off" name="password" placeholder=" " />
+                <label class="form-label">
+                  Set A Password <span class="req">*</span>
+                </label>
+                <small id="textPassword"></small>
+              </div>
+
+
+              <div class="form-btn--green">
+                <button id="button" class="button button-block" type="submit">
+                  Claim your free trial
+                </button>
+              </div>
+
+            <div class="form-footer">
+              <p>
+                By clicking the button, you are agreeing to <br> our <span>Terms and Services</span>
+              </p>
+            </div>
+            </div>
+        </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
